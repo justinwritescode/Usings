@@ -1,0 +1,26 @@
+<!--
+Xunit.usings
+
+  Created: 2022-10-23-01:58:54
+  Modified: 2022-11-01-04:05:30
+
+  Author: Justin Chase <justin@justinwritescode.com>
+  
+  Copyright © 2022-2023 Justin Chase, All Rights Reserved
+     License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project Sdk="UsingsSdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <TargetFrameworks>net7.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+    <Using Include="Xunit.Abstractions" />
+    <PackageReference Include="xunit" /> 
+        <PackageReference Include="xunit.runner.visualstudio" />
+        <PackageReference Include="coverlet.collector"  />
+    <!-- <PackageReference Include="Microsoft.NET.Test.Sdk" /> -->
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿<!--
+ Microsoft.Extensions.Options.usings
+ 
+   Created: 2022-10-22-10:58:54
+   Modified: 2022-10-30-04:49:12
+ 
+   Author: Justin Chase <justin@justinwritescode.com>
+   
+   Copyright © 2022-2023 Justin Chase, All Rights Reserved
+      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project Sdk="UsingsSdk">
+  <ItemGroup Label="MXO Usings" Condition="$(TargetFramework.CompareTo('netstandard2')) >= 0">
+    <Using Include="Microsoft.Extensions.Options" />
+    <!-- <Using Include="Microsoft.Extensions.Options.ConfigurationExtensions" /> -->
+  </ItemGroup>
+  <ItemGroup Condition="$(TargetFramework.CompareTo('netstandard2')) >= 0">
+    <PackageReference Include="Microsoft.Extensions.Options" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+  </ItemGroup>
+</Project>

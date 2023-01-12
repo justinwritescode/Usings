@@ -1,0 +1,8 @@
+﻿<Project Sdk="UsingsSdk">
+  <ItemGroup Condition="$(TargetFramework.CompareTo('netstandard2')) >= 0">
+    <Using Include="Microsoft.Extensions.Logging" />
+    <PackageReference Include="Microsoft.Extensions.Logging" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" />
+  </ItemGroup>
+</Project>

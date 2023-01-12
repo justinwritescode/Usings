@@ -1,0 +1,30 @@
+﻿<!--
+ System.All.usings
+ 
+   Created: 2022-10-22-10:58:54
+   Modified: 2022-10-30-04:30:37
+ 
+   Author: Justin Chase <justin@justinwritescode.com>
+   
+   Copyright © 2022-2023 Justin Chase, All Rights Reserved
+      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project Sdk="UsingsSdk">
+  <PropertyGroup>
+      <TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1;net6.0;net7.0</TargetFrameworks>
+  </PropertyGroup>
+   <ItemGroup>
+      <Import Include="System.Collections.ObjectModel.usings" />
+      <Import Include="System.Collections.usings" />
+      <Import Include="System.ComponentModel.usings" />
+      <Import Include="System.Linq.usings" />
+      <Import Include="System.Reflection.usings" />
+      <Import Include="System.Security.usings" />
+      <Import Include="System.Text.Json.usings" />
+      <Import Include="System.Text.RegularExpressions.usings" />
+      <Import Include="System.Text.usings" />
+      <Import Include="System.Threading.Tasks.usings" />
+      <Import Include="System.usings" />
+   </ItemGroup>
+</Project>

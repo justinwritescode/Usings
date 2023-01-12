@@ -1,0 +1,19 @@
+﻿<!--
+ * Microsoft.Extensions.Configuration.EnvironmentVariables.usings
+ * 
+ *   Created: 2022-11-16-04:27:09
+ *   Modified: 2022-11-19-04:05:56
+ * 
+ *   Author: Justin Chase <justin@justinwritescode.com>
+ *   
+ *   Copyright © 2022-2023 Justin Chase, All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+
+<Project Sdk="UsingsSdk">
+  <ItemGroup Label="Microsoft Configuration Extensions" Condition="$(TargetFramework.CompareTo('netstandard2')) >= 0">
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine"  />
+    <Using Include="Microsoft.Extensions.Configuration.CommandLine"  />
+  </ItemGroup>
+</Project>
