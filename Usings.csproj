@@ -24,7 +24,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="GetCommandLineArgs" GeneratePathProperty="true" />
-    <!-- <PackageReference Include="Microsoft.Build" /> -->
+    <PackageReference Include="Microsoft.Build" />
     <!-- <PackageReference Include="MSBuild.Extensions" IncludeAssets="ContentFiles" ExcludeAssets="Lib;Compile;Runtime;Native" /> -->
     <!-- <Using Include="Microsoft.Build.Utilities.Task" Alias="MSBTask" /> -->
     <ProjectReference Include="*.usings" SetConfiguration="Configuration=$(Configuration)" SetTargetFramework="TargetFramework=$(TargetFramework)" />
