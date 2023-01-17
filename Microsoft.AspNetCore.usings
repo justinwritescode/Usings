@@ -12,7 +12,7 @@
 
 <Project Sdk="UsingsSdk">
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
     <ItemGroup>
         <Using Include="Microsoft.AspNetCore.Mvc" />
