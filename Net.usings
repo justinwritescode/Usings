@@ -11,6 +11,9 @@
 -->
 
 <Project Sdk="UsingsSdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net6.0;net7.0</TargetFrameworks>
+  </PropertyGroup>
     <ItemGroup>
         <Import Include="Microsoft.Net.usings" />
         <Import Include="System.Net.Mime.MediaTypeNames.usings" />

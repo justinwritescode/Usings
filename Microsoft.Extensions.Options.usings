@@ -11,6 +11,9 @@
 -->
 
 <Project Sdk="UsingsSdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net6.0;net7.0</TargetFrameworks>
+  </PropertyGroup>
   <ItemGroup Label="MXO Usings" Condition="$(TargetFramework.CompareTo('netstandard2')) >= 0">
     <Using Include="Microsoft.Extensions.Options" />
     <!-- <Using Include="Microsoft.Extensions.Options.ConfigurationExtensions" /> -->
