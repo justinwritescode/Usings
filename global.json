@@ -8,7 +8,7 @@
     "MSBuild.SolutionSdk": "0.1.0",
     "MSBuild.SolutionSdk.SlnGen": "0.1.0",
     "MSBuild.IncludeSdk": "0.0.1-Local",
-    "UsingsSdk": "0.0.6",
+    "UsingsSdk": "0.0.1-Local",
     "JustInTimeVersioningSdk": "0.0.3",
     "NuGetPush": "0.0.4",
     "MetapackageSdk": "0.0.2",
